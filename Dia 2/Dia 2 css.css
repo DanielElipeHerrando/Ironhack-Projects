@@ -1,0 +1,50 @@
+h1 {
+    color: pink; 
+    text-decoration: underline; 
+   }
+   
+   p {
+     font-size: 18px;
+     width: 400px;
+     text-indent: 50px;
+     text-align: justify;
+   }
+   title{
+    color: blue;
+
+   }
+   deixecat{
+    color:greenyellow
+   }
+
+   h1{
+    color: darkblue
+   }
+
+   .yellow-box {
+    background-color: yellow;
+  }
+  
+  .blue-box {
+    background-color: blue;
+  }
+  .red-box{
+    background-color: red;
+
+  }
+
+  body{
+    background-color: #00D1AE;
+  }
+
+  .menu{
+    width:400px;
+    height: 50px;
+    background-color: #00D1AE;
+  }
+
+  .content{
+    width:400px;
+    height: 200px;
+    background-color: red;
+  }
