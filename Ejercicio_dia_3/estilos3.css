@@ -1,0 +1,74 @@
+
+
+
+body{
+    text-align: center;                         /* Sirve para centrar el texto*/
+    font-family: sans-serif;                    /* Sirve para dar fuente a la tipografia*/
+    background: white;
+    
+}
+
+
+
+
+.header1 {
+    float: left;
+    width: 29.8%;                       /* No pongo el with al 30% porque si pusiera width 30% y luego en el otro div width 70% no habría espacio para los borders*/
+    background-color: yellow;
+    border-right: 1px solid black;
+    }
+.header2 {
+    float: right;
+    width: 70%;
+    background-color: yellow;
+    border-left: 1px solid black;
+ }
+.Lineablanca{
+    height: 1px;
+    background-color: white;
+    width: 100%;
+    padding-top: 70px;
+}
+.contenedor {
+    float: left;
+     width: 29.8%;
+    background-color: red;
+  }
+  
+  .columna {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-bottom: 1px solid black;
+  }
+  .contenedor2{
+    float:right;
+    width: 68.8%;
+    height:400px;
+    background-color: greenyellow;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+     border-left: 10px solid white;;
+}
+
+.final{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+    border-top: 30px solid white;;
+}
+
+@media screen (max-width: 768px){    /* Intento fallido de hacerla responsive*/
+    .body{
+        margin-bottom: 0;
+        font-size: 40%;
+        
+    }
+
+}
