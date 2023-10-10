@@ -1,0 +1,37 @@
+div {
+    border: 2px solid black;
+    width: 300px;
+    float: left;
+}
+
+#div-1, #div-5, #div-7{
+    height: 40px;
+}
+
+#div-2, #div-6, #div-8{
+    height:120px;
+}
+#div-3, #div-4, #div-9{
+    height: 80px
+}
+
+#div-2{
+    border-color: aqua;
+}
+
+#col1, #col2, #col3{
+    border-width: 0;
+}
+
+.margen.derecha{
+    margin-right: 20px;
+}
+
+.margen-inferior{
+    margin-bottom: 30px;
+}
+
+
+#div-3, #div-5{
+    border-color: red;
+}
